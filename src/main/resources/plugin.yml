@@ -1,0 +1,4 @@
+name: ls-AntiElytraPidors
+version: '${project.version}'
+main: ru.lxckscream.lsantielytrapidors.Main
+api-version: '1.16'
