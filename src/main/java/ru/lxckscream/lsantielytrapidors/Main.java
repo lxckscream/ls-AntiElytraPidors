@@ -42,6 +42,6 @@ public final class Main extends JavaPlugin implements Listener {
                         }
                 }
             }
-        }.runTaskTimer(this, 1, 1);
+        }.runTaskTimer(this, getConfig().getLong("delay"), getConfig().getLong("delay"));
     }
 }
