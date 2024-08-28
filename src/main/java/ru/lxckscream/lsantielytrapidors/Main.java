@@ -22,6 +22,7 @@ public final class Main extends JavaPlugin implements Listener {
 
     @Override
     public void onEnable() {
+        saveDefaultConfig();
         new BukkitRunnable() {
             @Override
             public void run() {
